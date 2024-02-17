@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'TildaSans';
+  src: url(./assets/TildaSans-VF.woff);
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'TildaSans', Arial, sans-serif !important;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* Custom global styles */
+html {
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #2d2d2d;
+  --light-grey: #f5f5f5;
+  --accent: #fadfa5;
+}
+
+.bg-black {
+  background-color: var(--black) !important;
+  color: var(--white);
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.bg-grey {
+  background-color: var(--grey);
+}
+
+.bg-light-grey {
+  background-color: var(--light-grey);
+  color: #020202;
+}
+
+.text-grey {
+  color: #020202;
+}

@@ -1,0 +1,24 @@
+.title {
+  line-height: 1;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.img {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.narrow {
+  max-width: 240px;
+  margin: 0 auto;
+}

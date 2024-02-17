@@ -1,0 +1,54 @@
+.shadow-wrapper {
+  position: relative;
+}
+
+.shadow {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  z-index: 0;
+
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+
+  background-color: transparent;
+  box-shadow: 0 0 60px 30px #fff,
+    /* inner white */ 0 0 100px 60px rgba(255, 0, 255, 0.26),
+    /* middle magenta */ 0 0 140px 90px rgba(0, 255, 255, 0.191); /* outer cyan */
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  animation: rotation 5s infinite ease-in-out;
+}
+
+@keyframes rotation {
+  from {
+    rotate: y 0deg;
+  }
+  to {
+    rotate: y 359deg;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    scale: 0.9;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+.link,
+.link:hover,
+.link:visited,
+.link:active {
+  color: #ffffff;
+  text-decoration: underline !important;
+}

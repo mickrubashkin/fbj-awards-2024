@@ -1,0 +1,17 @@
+.wrapper {
+  position: relative;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.link,
+.link:hover,
+.link:visited,
+.link:active {
+  color: var(--accent);
+  text-decoration: underline !important;
+}

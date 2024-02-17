@@ -1,0 +1,30 @@
+.items-wrapper {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: 10px;
+  max-width: 100dvw;
+  height: 180px;
+}
+
+.run {
+  max-width: 100dvw;
+  animation: scroll 20s linear infinite;
+}
+
+.reverse {
+  animation-direction: reverse;
+  position: absolute;
+  top: 80px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-160%, 0);
+  }
+}

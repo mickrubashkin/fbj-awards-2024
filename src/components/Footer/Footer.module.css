@@ -1,0 +1,16 @@
+.job {
+  color: #b29167;
+}
+
+.link:hover,
+.link:active,
+.link:visited {
+  color: var(--accent);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

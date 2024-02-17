@@ -1,0 +1,18 @@
+.wrapper {
+  border: 2px solid var(--accent);
+}
+
+.list {
+  list-style: initial;
+  padding-left: 1rem;
+}
+
+.list li::marker {
+  color: var(--accent);
+}
+
+.divider {
+  width: 90%;
+  margin: 0 auto;
+  background-color: var(--accent);
+}
