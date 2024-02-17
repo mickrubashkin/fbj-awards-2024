@@ -24,7 +24,7 @@
 }
 
 .logo {
-  animation: rotation 5s infinite ease-in-out;
+  animation: rotation 6s infinite ease-out;
 }
 
 @keyframes rotation {
@@ -38,10 +38,23 @@
 
 @keyframes pulse {
   0% {
+    scale: 0.8;
+  }
+
+  20% {
     scale: 0.9;
   }
-  100% {
+
+  40% {
     scale: 1;
+  }
+
+  70% {
+    scale: 0.9;
+  }
+
+  100% {
+    scale: 0.8;
   }
 }
 

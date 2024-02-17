@@ -11,10 +11,6 @@ function Hero() {
           <div className={styles.shadow}></div>
           <div className={styles['content-wrapper']}>
             <Logo className={`mx-auto ${styles.logo}`} />
-            <h1 className={`is-size-3 is-uppercase has-text-centered mt-1`}>
-              Женщина <br />
-              года
-            </h1>
             <p className="content has-text-centered pt-2 px-4">
               Глянцевый журнал&nbsp;FB приглашает Вас принять участие
               в&nbsp;ежегодной ПРЕМИИ &laquo;ЖЕНЩИНА ГОДА&raquo; ПО&nbsp;ВЕРСИИ
