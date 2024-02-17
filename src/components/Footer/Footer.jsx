@@ -18,7 +18,7 @@ function Footer() {
               <p className={styles.job}>Генеральный директор</p>
               <a
                 className={`${styles.link} text-accent`}
-                href="tel:+79055295511"
+                href="https://wa.me/+79055295511"
               >
                 +7&nbsp;905 529-55-11
               </a>
@@ -28,7 +28,7 @@ function Footer() {
               <p className={styles.job}>Заместитель Руководителя</p>
               <a
                 className={`${styles.link} text-accent`}
-                href="tel:+79631772070"
+                href="https://wa.me/+79631772070"
               >
                 +7&nbsp;963 177-20-70
               </a>
