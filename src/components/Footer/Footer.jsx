@@ -10,30 +10,7 @@ function Footer() {
       <div className="columns is-mobile">
         <div className="column">
           <div className="has-text-centered">
-            <p className="is-size-3 text-accent ">контакты</p>
-            <div className="pt-5">
-              <p className=" text-accent has-text-weight-bold">
-                Диана Фадзаева
-              </p>
-              <p className={styles.job}>Генеральный директор</p>
-              <a
-                className={`${styles.link} text-accent`}
-                href="https://wa.me/+79055295511"
-              >
-                +7&nbsp;905 529-55-11
-              </a>
-            </div>
-            <div className="pt-5">
-              <p className=" text-accent has-text-weight-bold">Виталий Аляев</p>
-              <p className={styles.job}>Заместитель Руководителя</p>
-              <a
-                className={`${styles.link} text-accent`}
-                href="https://wa.me/+79631772070"
-              >
-                +7&nbsp;963 177-20-70
-              </a>
-            </div>
-            <div className="pt-6">
+            <div className="pt-3">
               <div className={styles.social}>
                 <a
                   href="https://wa.me/+79055295511"

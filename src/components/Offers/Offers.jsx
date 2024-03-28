@@ -52,7 +52,7 @@ function Offers() {
                 Стоимость пакета :
               </p>
               <p className="is-size-2 has-weight-bold has-text-centered">
-                150 000
+                800 000
               </p>
             </div>
           </Accordion>
@@ -105,7 +105,7 @@ function Offers() {
                 Стоимость пакета :
               </p>
               <p className="is-size-2 has-weight-bold has-text-centered">
-                300 000
+                1 500 000
               </p>
             </div>
           </Accordion>
@@ -173,7 +173,7 @@ function Offers() {
                 Стоимость пакета :
               </p>
               <p className="is-size-2 has-weight-bold has-text-centered">
-                800 000
+                3 500 000
               </p>
             </div>
           </Accordion>
