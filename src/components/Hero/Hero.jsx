@@ -14,8 +14,19 @@ function Hero() {
             <p className="content has-text-centered pt-2 px-4">
               Глянцевый журнал&nbsp;FB приглашает Вас принять участие
               в&nbsp;ежегодной ПРЕМИИ &laquo;ЖЕНЩИНА ГОДА&raquo; ПО&nbsp;ВЕРСИИ
-              ЖУРНАЛА&nbsp;FB. На&nbsp;самом модном событии года отметят
-              и&nbsp;наградят самых ярких и&nbsp;успешных женщин России.
+              ЖУРНАЛА&nbsp;FB, которая состоится{' '}
+              <a
+                style={{ color: '#ffffff', textDecoration: 'underline' }}
+                href="https://wa.me/+79055295511"
+                target="_blank"
+              >
+                на&nbsp;Рублевке 28&nbsp;апреля в&nbsp;19:00
+              </a>
+              .
+              <br />
+              По&nbsp;адресу: 72, д. Жуковка (Барвиха luxury village).
+              На&nbsp;самом модном событии года отметят и&nbsp;наградят самых
+              ярких и&nbsp;успешных женщин России.
             </p>
           </div>
         </div>
