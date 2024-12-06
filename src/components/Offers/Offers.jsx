@@ -37,8 +37,9 @@ function Offers() {
                 на&nbsp;церемонию&nbsp;&mdash;&nbsp;2
               </li>
               <li>
-                Интервью для эфира каналов: <strong>Fashion TV</strong>&nbsp;или{' '}
-                <strong>Music Box</strong> (один канал)
+                Представление торжественное звездным ведущим с&nbsp;выходом
+                на&nbsp;сцену для вручения награды звездному номинанту
+                (распределение на&nbsp;усмотрение редакции)
               </li>
               <li>Предоставление фотографа на&nbsp;весь вечер мероприятия</li>
               <li>
@@ -105,7 +106,7 @@ function Offers() {
                 Стоимость пакета :
               </p>
               <p className="is-size-2 has-weight-bold has-text-centered">
-                300 000
+                400 000
               </p>
             </div>
           </Accordion>

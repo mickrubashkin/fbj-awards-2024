@@ -40,6 +40,19 @@ import guest8Src from './images/guest-8.png';
 import guest9Src from './images/guest-9.png';
 import guest10Src from './images/guest-10.png';
 
+import sm09Src from './20240529/sm-01.png';
+import sm10Src from './20240529/sm-03.png';
+import sm11Src from './20240529/sm-05.png';
+import sm12Src from './20240529/sm-07.png';
+import md01Src from './20240529/md-1.png';
+import md02Src from './20240529/md-2.png';
+import md03Src from './20240529/md-3.png';
+import md04Src from './20240529/md-4.png';
+import md05Src from './20240529/md-5.png';
+import md06Src from './20240529/md-6.png';
+import md07Src from './20240529/md-7.png';
+import md08Src from './20240529/md-8.png';
+
 function Guests() {
   return (
     <section className="section p-0 pt-5">
@@ -57,6 +70,49 @@ function Guests() {
             бизнеса, моды, стиля и&nbsp;красоты, психологии по&nbsp;версии
             журнала&nbsp;<b>FB</b>
           </p>
+          <Carousel
+            className="pt-4"
+            autoplay
+            wrapAround
+            speed="500"
+            autoplayInterval="2000"
+            renderCenterLeftControls={renderCenterLeftControls}
+            renderCenterRightControls={renderCenterRightControls}
+            renderBottomCenterControls="null"
+          >
+            <img src={md01Src} />
+            <img src={md02Src} />
+            <img src={md03Src} />
+            <img src={md04Src} />
+            <img src={md05Src} />
+            <img src={md06Src} />
+            <img src={md07Src} />
+            <img src={md08Src} />
+          </Carousel>
+          <div className="columns is-mobile is-gapless mb-0 mt-2">
+            <div className="column mr-2">
+              <figure className="image is-square">
+                <img src={sm09Src} />
+              </figure>
+            </div>
+            <div className="column">
+              <figure className="image is-square">
+                <img src={sm10Src} />
+              </figure>
+            </div>
+          </div>
+          <div className="columns is-mobile is-gapless mb-0 mt-2">
+            <div className="column mr-2">
+              <figure className="image is-square">
+                <img src={sm11Src} />
+              </figure>
+            </div>
+            <div className="column">
+              <figure className="image is-square">
+                <img src={sm12Src} />
+              </figure>
+            </div>
+          </div>
           <Carousel
             className="pt-4"
             autoplay

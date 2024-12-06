@@ -23,16 +23,6 @@ function Footer() {
                 +7&nbsp;905 529-55-11
               </a>
             </div>
-            <div className="pt-5">
-              <p className=" text-accent has-text-weight-bold">Виталий Аляев</p>
-              <p className={styles.job}>Заместитель Руководителя</p>
-              <a
-                className={`${styles.link} text-accent`}
-                href="tel:+79631772070"
-              >
-                +7&nbsp;963 177-20-70
-              </a>
-            </div>
             <div className="pt-6">
               <div className={styles.social}>
                 <a
